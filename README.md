@@ -59,4 +59,4 @@ The contacts are stored in a file named contacts.json in the project directory. 
 
 ## Contributors
 [**Mugtaba Mohamed Abdalla Ibrahim**](https://github.com/mojmo/)  
-[**Subaib Abdulhafeez Altyeb Ahmed**](https://github.com/suhaib8310/)
+[**Suhaib Abdulhafeez Altyeb Ahmed**](https://github.com/suhaib8310/)
