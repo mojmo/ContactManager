@@ -21,3 +21,14 @@ class ContactManager:
             print("Contact deleted successfully.")
         else:
             print("Contact not found.")
+
+    def update_contact(self, name, phone, email):
+        if name in self.contacts:
+            self.contacts[name] = {"phone": phone, "email": email}
+            write_json(self.filepath, self.contacts)
+            print("Contact updated successfully.")
+        else:
+            print("Contact not found.")
+
+    def view_contacts(self):
+        return self.contacts
