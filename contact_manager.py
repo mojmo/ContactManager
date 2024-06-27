@@ -13,3 +13,11 @@ class ContactManager:
             self.contacts[name] = {"phone": phone, "email": email}
             write_json(self.filepath, self.contacts)
             print("Contact added successfully.")
+
+    def delete_contact(self, name):
+        if name in self.contacts:
+            del self.contacts[name]
+            write_json(self.filepath, self.contacts)
+            print("Contact deleted successfully.")
+        else:
+            print("Contact not found.")
